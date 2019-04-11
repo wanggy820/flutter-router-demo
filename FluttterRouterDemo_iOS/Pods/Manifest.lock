@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FLEX (2.4.0)
+  - Flutter (1.0.0)
+  - FlutterApp (0.0.1)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - hybrid_manager
+  - hybrid_manager (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - FLEX (~> 2.4.0)
+  - Flutter (from `../flutter_router_demo/.ios/Flutter/engine`)
+  - FlutterApp (from `../flutter_router_demo`)
+  - FlutterPluginRegistrant (from `../flutter_router_demo/.ios/Flutter/FlutterPluginRegistrant`)
+  - hybrid_manager (from `../flutter_router_demo/.ios/Flutter/.symlinks/hybrid_manager/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FLEX
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_router_demo/.ios/Flutter/engine"
+  FlutterApp:
+    :path: "../flutter_router_demo"
+  FlutterPluginRegistrant:
+    :path: "../flutter_router_demo/.ios/Flutter/FlutterPluginRegistrant"
+  hybrid_manager:
+    :path: "../flutter_router_demo/.ios/Flutter/.symlinks/hybrid_manager/ios"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  FlutterApp: 168bc101c30a1930f2d254efa79477c2678e2b43
+  FlutterPluginRegistrant: 89113a0aa394a7698f9461eae3e6bd7137b3723e
+  hybrid_manager: 39644d47d0cdca930526049d368c7f6d3d08bc40
+
+PODFILE CHECKSUM: 4d9350b9c757453ef16f265b7172181e9f63e9d1
+
+COCOAPODS: 1.6.1

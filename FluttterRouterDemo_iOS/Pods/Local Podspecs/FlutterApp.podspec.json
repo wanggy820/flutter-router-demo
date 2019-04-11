@@ -1,0 +1,20 @@
+{
+  "name": "FlutterApp",
+  "version": "0.0.1",
+  "summary": "引入Flutter App.framework",
+  "description": "引入Flutter App.framework.",
+  "license": "MIT",
+  "homepage": "http://tjos.com/seeyon/main.do",
+  "authors": {
+    "tojoy": "wangchunxiang@tojoy.com"
+  },
+  "source": {
+    "svn": "",
+    "tag": "0.0.1"
+  },
+  "frameworks": "App",
+  "vendored_frameworks": ".ios/Flutter/App.framework",
+  "platforms": {
+    "ios": "8.0"
+  }
+}

@@ -1,0 +1,28 @@
+inhibit_all_warnings!
+platform:ios,"8.0"
+target 'FluttterRouterDemo' do
+  
+    pod 'AFNetworking',  '~> 3.1.0'
+    pod 'FLEX', '~> 2.4.0', :configurations => ['Debug'] #测试用
+
+end
+
+ flutter_application_path = '../flutter_router_demo'
+
+ framework_dir = flutter_application_path + '/.ios/Flutter/App.framework'
+
+ if !File.exist?(framework_dir)
+ #  exec 'cd TJFlutter; flutter run;'
+ raise "App.framework 不存在， 请到终端 cd 工程 flutter_router_demo 目录，运行 'flutter run'"
+ end
+
+   pod 'FlutterApp', :path => flutter_application_path
+
+ #当IsDevelopFlutter为1时，表示flutter开发工程，需要安装flutter环境，如果需要切换到非flutterh开发环境，需要设置为0
+ IsDevelopFlutter = 0
+
+ if IsDevelopFlutter == 1
+   eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+ else
+   eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+ end

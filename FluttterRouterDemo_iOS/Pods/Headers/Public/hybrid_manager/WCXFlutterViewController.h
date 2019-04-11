@@ -1,0 +1,1 @@
+../../../../../flutter_router_demo/.ios/Flutter/.symlinks/hybrid_manager/ios/Classes/WCXFlutterViewController.h

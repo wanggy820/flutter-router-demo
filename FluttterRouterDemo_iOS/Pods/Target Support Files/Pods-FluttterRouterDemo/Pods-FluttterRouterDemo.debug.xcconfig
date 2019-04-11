@@ -1,0 +1,12 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../flutter_router_demo/.ios/Flutter" "${PODS_ROOT}/../../flutter_router_demo/.ios/Flutter/engine"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/FLEX" "${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant" "${PODS_ROOT}/Headers/Public/hybrid_manager"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/FLEX" "${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant" "${PODS_CONFIGURATION_BUILD_DIR}/hybrid_manager"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/FLEX" -isystem "${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant" -isystem "${PODS_ROOT}/Headers/Public/hybrid_manager" -iframework "${PODS_ROOT}/../../flutter_router_demo/.ios/Flutter/engine" -iframework "${PODS_ROOT}/../../flutter_router_demo/.ios/Flutter"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"FLEX" -l"FlutterPluginRegistrant" -l"hybrid_manager" -l"sqlite3" -l"z" -framework "App" -framework "CoreGraphics" -framework "Flutter" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+#include "/Users/rrwanggy/Desktop/flutter_router/flutter_router_demo/.ios/Flutter/Generated.xcconfig"
