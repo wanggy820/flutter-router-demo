@@ -6,3 +6,5 @@ evaluate(new File(
         settingsDir.parentFile,
         'flutter_router_demo/.android/include_flutter.groovy'
 ))
+include ':flutter_router_demo'
+project(':flutter_router_demo').projectDir = new File('../flutter_router_demo')

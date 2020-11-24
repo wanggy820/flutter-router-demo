@@ -1,1 +1,0 @@
-../../../../../flutter_router_demo/.ios/Flutter/FlutterPluginRegistrant/Classes/GeneratedPluginRegistrant.h

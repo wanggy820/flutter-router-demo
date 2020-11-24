@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA11D7FCAA2AC6A9BD5111A3 /* libPods-FluttterRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7558665EC385E4BEDC936F54 /* libPods-FluttterRouterDemo.a */; };
+		9F4F0FA23682871D401FEE0B /* Pods_FluttterRouterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997A712C2A12E512228A486A /* Pods_FluttterRouterDemo.framework */; };
+		F6AD4858256B8E9000B76E21 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AD4856256B8E9000B76E21 /* ViewController2.m */; };
 		F6E912CC225DBD4100F6F2C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E912CB225DBD4100F6F2C6 /* AppDelegate.m */; };
 		F6E912CF225DBD4100F6F2C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E912CE225DBD4100F6F2C6 /* ViewController.m */; };
 		F6E912D2225DBD4100F6F2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E912D0225DBD4100F6F2C6 /* Main.storyboard */; };
@@ -18,8 +19,10 @@
 
 /* Begin PBXFileReference section */
 		1D93D7775E140FDC3DB6F248 /* Pods-FluttterRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluttterRouterDemo.release.xcconfig"; path = "Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
-		7558665EC385E4BEDC936F54 /* libPods-FluttterRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FluttterRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		997A712C2A12E512228A486A /* Pods_FluttterRouterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluttterRouterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C128A44FA00C44AD60CB553B /* Pods-FluttterRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluttterRouterDemo.debug.xcconfig"; path = "Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F6AD4856256B8E9000B76E21 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		F6AD4857256B8E9000B76E21 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		F6E912C7225DBD4100F6F2C6 /* FluttterRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluttterRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E912CA225DBD4100F6F2C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6E912CB225DBD4100F6F2C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA11D7FCAA2AC6A9BD5111A3 /* libPods-FluttterRouterDemo.a in Frameworks */,
+				9F4F0FA23682871D401FEE0B /* Pods_FluttterRouterDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +50,7 @@
 		027F789960B807815943745C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7558665EC385E4BEDC936F54 /* libPods-FluttterRouterDemo.a */,
+				997A712C2A12E512228A486A /* Pods_FluttterRouterDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +89,8 @@
 				F6E912CB225DBD4100F6F2C6 /* AppDelegate.m */,
 				F6E912CD225DBD4100F6F2C6 /* ViewController.h */,
 				F6E912CE225DBD4100F6F2C6 /* ViewController.m */,
+				F6AD4857256B8E9000B76E21 /* ViewController2.h */,
+				F6AD4856256B8E9000B76E21 /* ViewController2.m */,
 				F6E912D0225DBD4100F6F2C6 /* Main.storyboard */,
 				F6E912D3225DBD4300F6F2C6 /* Assets.xcassets */,
 				F6E912D5225DBD4300F6F2C6 /* LaunchScreen.storyboard */,
@@ -191,18 +196,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo-frameworks.sh",
-				"${PODS_ROOT}/../../flutter_router_demo/.ios/Flutter/engine/Flutter.framework",
-				"${PODS_ROOT}/../../flutter_router_demo/.ios/Flutter/App.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E912CF225DBD4100F6F2C6 /* ViewController.m in Sources */,
+				F6AD4858256B8E9000B76E21 /* ViewController2.m in Sources */,
 				F6E912DA225DBD4300F6F2C6 /* main.m in Sources */,
 				F6E912CC225DBD4100F6F2C6 /* AppDelegate.m in Sources */,
 			);

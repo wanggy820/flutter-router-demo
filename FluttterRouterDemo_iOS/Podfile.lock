@@ -14,27 +14,27 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - FLEX (2.4.0)
   - Flutter (1.0.0)
   - FlutterApp (0.0.1)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
-    - hybrid_manager
-  - hybrid_manager (0.0.1):
+    - tj_flutter_router_plugin
+  - HBDNavigationBar (1.7.7)
+  - tj_flutter_router_plugin (0.0.1):
     - Flutter
+    - HBDNavigationBar
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
-  - FLEX (~> 2.4.0)
   - Flutter (from `../flutter_router_demo/.ios/Flutter/engine`)
   - FlutterApp (from `../flutter_router_demo`)
   - FlutterPluginRegistrant (from `../flutter_router_demo/.ios/Flutter/FlutterPluginRegistrant`)
-  - hybrid_manager (from `../flutter_router_demo/.ios/Flutter/.symlinks/hybrid_manager/ios`)
+  - tj_flutter_router_plugin (from `../flutter_router_demo/.ios/Flutter/.symlinks/tj_flutter_router_plugin/ios`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
-    - FLEX
+    - HBDNavigationBar
 
 EXTERNAL SOURCES:
   Flutter:
@@ -43,17 +43,17 @@ EXTERNAL SOURCES:
     :path: "../flutter_router_demo"
   FlutterPluginRegistrant:
     :path: "../flutter_router_demo/.ios/Flutter/FlutterPluginRegistrant"
-  hybrid_manager:
-    :path: "../flutter_router_demo/.ios/Flutter/.symlinks/hybrid_manager/ios"
+  tj_flutter_router_plugin:
+    :path: "../flutter_router_demo/.ios/Flutter/.symlinks/tj_flutter_router_plugin/ios"
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
-  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   FlutterApp: 168bc101c30a1930f2d254efa79477c2678e2b43
-  FlutterPluginRegistrant: 89113a0aa394a7698f9461eae3e6bd7137b3723e
-  hybrid_manager: 39644d47d0cdca930526049d368c7f6d3d08bc40
+  FlutterPluginRegistrant: f1def16dff15def6b9dd03e062e6bff81f3de190
+  HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+  tj_flutter_router_plugin: 223e39525797493677fb4c13a77bd5f59e1efd9b
 
-PODFILE CHECKSUM: 4d9350b9c757453ef16f265b7172181e9f63e9d1
+PODFILE CHECKSUM: a21efa0677968f0d62841b4954b830d6685265c9
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.1

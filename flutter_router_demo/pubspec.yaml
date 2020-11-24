@@ -32,8 +32,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  hybrid_manager:
-    path: '../hybrid_manager'
+#暂时先用本地的
+  tj_flutter_router_plugin:
+    path: '../tj_flutter_router_plugin'
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25ED128A458C6D8BCD5F82534657DA1E"
-               BuildableName = "libFlutterPluginRegistrant.a"
+               BlueprintIdentifier = "83DAA8F43D74F8D51203DE23C7C3A3F5"
+               BuildableName = "FlutterPluginRegistrant.framework"
                BlueprintName = "FlutterPluginRegistrant"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -1,0 +1,6 @@
+framework module tj_flutter_router_plugin {
+  umbrella header "tj_flutter_router_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

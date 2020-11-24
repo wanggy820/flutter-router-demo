@@ -32,5 +32,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation project(':flutter')
-    implementation project(':hybrid_manager')
+    implementation project(':tj_flutter_router_plugin')
 }
