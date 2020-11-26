@@ -36,12 +36,12 @@
 
         <activity android:name=".Activity1"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme">
+            android:theme="@android:style/Theme.NoTitleBar">
 
         </activity>
         <activity android:name=".Activity2"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme">
+            android:theme="@android:style/Theme.NoTitleBar">
 
         </activity>
     </application>

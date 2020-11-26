@@ -33,7 +33,8 @@ public class App extends Application {
                     //flutter回调
                     TJRouterManager.completeCache.put(url, new TJCompletion() {
                         @Override
-                        public void completion(Object result) {
+                        public void completion(String url, Object result) {
+
                             Log.d("MainActivity***", "result:"+result);
                         }
                     });
@@ -43,7 +44,7 @@ public class App extends Application {
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
                     startActivity(intent);
                     //原生传给flutter的回调
-                    completion.completion("lalala");
+                    completion.completion(url, "lalala");
                 } else if ("/vc2".equals(uri.getPath())) {
                     Intent intent = new Intent(App.this, Activity2.class);
                     intent.putExtra("url", url);
