@@ -10,11 +10,12 @@
 #endif
 #endif
 
+#import "NSObject+Router.h"
+#import "TJFlutterManager.h"
 #import "TJFlutterRouterPlugin.h"
 #import "TJFlutterViewController.h"
 #import "TJRouter.h"
-#import "TJRouterManager.h"
-#import "UIViewController+Router.h"
+#import "TJWebViewController.h"
 
 FOUNDATION_EXPORT double tj_flutter_router_pluginVersionNumber;
 FOUNDATION_EXPORT const unsigned char tj_flutter_router_pluginVersionString[];

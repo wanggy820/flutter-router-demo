@@ -141,7 +141,7 @@ packages:
       name: tj_flutter_router_plugin
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.0.1"
+    version: "0.0.7"
   typed_data:
     dependency: transitive
     description:

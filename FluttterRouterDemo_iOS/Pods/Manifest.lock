@@ -49,11 +49,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  FlutterApp: 168bc101c30a1930f2d254efa79477c2678e2b43
+  FlutterApp: fece9dabd77c772deb5b3b9cf49502313135067b
   FlutterPluginRegistrant: f1def16dff15def6b9dd03e062e6bff81f3de190
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
-  tj_flutter_router_plugin: 223e39525797493677fb4c13a77bd5f59e1efd9b
+  tj_flutter_router_plugin: 29f8f502b2397bcebc6cf9942fa5083d8eda966a
 
 PODFILE CHECKSUM: d49bd57db302c74172bdb0caf99ab4f0677c8396
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

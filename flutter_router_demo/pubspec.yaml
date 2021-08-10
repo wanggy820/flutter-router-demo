@@ -28,7 +28,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
-  tj_flutter_router_plugin: ^0.0.1
+  tj_flutter_router_plugin: ^0.0.7
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -48,10 +48,7 @@ flutter:
   uses-material-design: true
 
   assets:
-  - images/back.png
-  - images/back_white.png
-  - images/icon_empty.png
-
+  - images/back_icon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

@@ -23,11 +23,15 @@
 
     ]
   },
-  "platforms": {
-    "ios": "8.0"
-  },
+  "resources": "Images.bundle",
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES",
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
   }
 }

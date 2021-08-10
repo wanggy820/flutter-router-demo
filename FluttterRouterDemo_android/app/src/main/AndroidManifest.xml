@@ -15,7 +15,7 @@
         android:appComponentFactory="任意字符"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity1"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -34,14 +34,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activity1"
-            android:launchMode="singleTop"
-            android:theme="@android:style/Theme.NoTitleBar">
-
-        </activity>
         <activity android:name=".Activity2"
             android:launchMode="singleTop"
-            android:theme="@android:style/Theme.NoTitleBar">
+            android:theme="@style/AppTheme">
 
         </activity>
     </application>

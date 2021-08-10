@@ -112,6 +112,7 @@
 				F6E912C4225DBD4100F6F2C6 /* Frameworks */,
 				F6E912C5225DBD4100F6F2C6 /* Resources */,
 				C47E45FBE4C36CAC3200112D /* [CP] Embed Pods Frameworks */,
+				074ADEAAE5F6C2853A526C00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +169,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		074ADEAAE5F6C2853A526C00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FluttterRouterDemo/Pods-FluttterRouterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		862983E2C56511476F37542B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

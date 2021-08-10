@@ -13,6 +13,9 @@
     "tag": "0.0.1"
   },
   "frameworks": "App",
+  "resources": [
+    "images/*.png"
+  ],
   "vendored_frameworks": ".ios/Flutter/App.framework",
   "platforms": {
     "ios": "8.0"

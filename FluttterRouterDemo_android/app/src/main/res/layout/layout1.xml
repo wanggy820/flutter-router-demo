@@ -14,14 +14,16 @@
         android:textColor="#ffffff"
         android:text="@string/Activity1" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:text="跳到flutter页面"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
+        android:onClick="click"
         android:gravity="center"
-        tools:src="@drawable/ic_launcher_background"
+        tools:src="@tools:sample/avatars"
         android:contentDescription="@string/btn" />
 </RelativeLayout>

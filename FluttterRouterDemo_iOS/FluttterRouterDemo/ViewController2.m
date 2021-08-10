@@ -8,7 +8,6 @@
 
 #import "ViewController2.h"
 #import <tj_flutter_router_plugin/TJRouter.h>
-#import <tj_flutter_router_plugin/UIViewController+Router.h>
 
 
 @interface ViewController2 ()
@@ -18,7 +17,7 @@
 @implementation ViewController2
 
 + (void)load {
-    [TJRouter registerURLPattern:@"tojoy://native/vc2" toHandler:^(NSDictionary * _Nonnull routerParameters) {
+    [TJRouter registerURL:@"native://tojoy/vc2" block:^(NSDictionary * _Nonnull routerParameters) {
         
         //根据url跳转到不同的页面，页面参数根据url qury传参
         ViewController2 *vc = [ViewController2 new];
@@ -55,7 +54,7 @@
         self.completion(@"啦啦-----push回调!");
     }
     
-    [TJRouter openURL:@"tojoy://flutter?page=vc1&key=value" completion:^(id result) {
+    [TJRouter openURL:@"flutter://tojoy/page1?page=vc1&key=value" completion:^(id result) {
         NSLog(@"flutter 回调 result:%@", result);
     }];
 }
@@ -72,7 +71,7 @@
         self.completion(@"啦啦-----push回调!");
     }
     
-    [TJRouter openURL:@"tojoy://flutter?page=vc2&key=value" completion:^(id result) {
+    [TJRouter openURL:@"flutter://tojoy/page2?page=vc2&key=value" completion:^(id result) {
         NSLog(@"flutter 回调 result:%@", result);
     }];
 }

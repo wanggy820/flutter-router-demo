@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :svn => "", :tag => "0.0.1" }
 #  s.dependency 'Flutter'
   s.frameworks  = "App"
+  s.resource = ['images/*.png']
   s.vendored_frameworks = '.ios/Flutter/App.framework'
   s.ios.deployment_target = '8.0'
 end
