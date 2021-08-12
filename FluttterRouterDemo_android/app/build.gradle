@@ -35,5 +35,5 @@ dependencies {
     implementation project(':flutter')
     implementation project(':tj_flutter_router_plugin')
 
-    annotationProcessor 'com.github.wanggy820:RouterBindProcessor:1.0.7'
+    annotationProcessor 'io.github.wanggy820:RouterBindProcessor:1.0.7'
 }
